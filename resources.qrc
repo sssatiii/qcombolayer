@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/QcomboLayer" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>

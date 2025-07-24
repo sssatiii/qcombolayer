@@ -1,0 +1,48 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.
+# Mandatory items:
+
+[general]
+name=Q combo Layer
+qgisMinimumVersion=3.0
+description=Filler Layer Combo
+version=0.1
+author=SIMONn
+email=kittiwan.sati@gmail.com
+
+about= plug-in ตัวนี้ใช้สำหรับ fillter ข้อมูล หลายๆ layer เพื่อให้ผู้ใช้งานบริหารจัดการข้อมูลได้ง่ายโดยวิธีใช้งานเริ่มจาก เลือก layer ที่ต้องการ fillter ในแต่ละ layer ให้เลือก field ที่ต้องการ fillter ใส่ข้อมูลที่จะ fillter ลงไป set action แต่ละ field ว่าจะ fix หรือจะ flex โดย fix คือ ข้อมูลจะไม่เปลี่ยนแปลง ส่วน flex ผู้ใช้งานจะสามารถ เลื่อนข้อมูล +1 ด้วยลูกศรขวา และ -1 ตัวลูกศรซ้าย ตาม index ที่ order by field ที่ flex ด้วยปุ่มลูกศร ซ้ายขวา พอ เลือก layer เลือก field และ set action แล้ว จะมีปุ่ม Ok ให้กด ยืนยัน ซึ่งจะมี pop up หน้าจอ แสดงรายการที่ layer field ที่เลือก และปุ่ม ลูกศร ไปกลับ ให้ผู้ใช้งานกด เลื่อน หรือ สามารถ กดที่แป้นพิมพ์ได้ หากต้องการแก้ไข ข้อมูลใน field ก็ทำได้ เมื่อผู้ทำการ กดปุ่มเลื่อนไปมา หน้าแผนที่ จะ fillter ข้อมูลแต่ละ layer ที่กำหนดไว้ไปเรื่อย ๆ และยังสามารถแก้ไข layer นั้น ๆ ได้
+
+tracker=http://bugs
+repository=http://repo
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python,vector,filter,layer
+
+homepage=http://homepage
+category=Vector
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
